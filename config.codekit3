@@ -61,6 +61,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/ionicons.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/ionicons-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -83,6 +93,34 @@
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
+		},
+	"\/fonts\/ionicons.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ionicons.eot",
+		"oF": 0
+		},
+	"\/fonts\/ionicons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/ionicons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/ionicons.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ionicons.ttf",
+		"oF": 0
+		},
+	"\/fonts\/ionicons.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ionicons.woff",
+		"oF": 0
 		},
 	"\/images\/hero_bg.jpg": {
 		"ft": 16384,
