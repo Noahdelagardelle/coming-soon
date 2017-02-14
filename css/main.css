@@ -259,6 +259,8 @@ textarea, input, button {
   margin-right: 0;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   color: #069;
   -webkit-transition: 200ms ease;
   transition: 200ms ease;
@@ -278,6 +280,7 @@ textarea, input, button {
   border-bottom-right-radius: 3px;
   -webkit-transition: 200ms ease;
   transition: 200ms ease;
+  opacity: 1;
 }
 
 .email-btn:hover {
@@ -403,7 +406,10 @@ textarea, input, button {
     height: 50px;
     line-height: 50px;
     width: 100%;
-    padding-left: 20px;
+    margin-left: 20px;
+  }
+  .about-me-btn:hover {
+    width: 100%;
   }
   .about-me-modal {
     display: relative;
