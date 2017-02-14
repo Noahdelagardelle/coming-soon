@@ -432,6 +432,9 @@ textarea, input, button {
     transition: 200ms ease;
     z-index: 100;
   }
+  .about-me-btn:hover {
+    width: 100%;
+  }
   .about-me-modal {
     display: relative;
     position: absolute;
