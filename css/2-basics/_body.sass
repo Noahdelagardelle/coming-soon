@@ -86,34 +86,36 @@ textarea, input, button
     transform: scale(1.2)
 
 .about-me-btn
-  position: fixed
-  right: 0
-  top: 20vh
-  color: $blue
-  cursor: pointer
-  background: #fff
-  border-radius: $radius
-  font-size: 14px
-  height: 50px
-  line-height: 50px
-  width: 90px
-  padding-left: 20px
-  transition: 200ms ease
-  &:hover
-    width: 100px
-
-.close-modal-btn
   position: absolute
+  top: 15vh
   right: 0
-  top: 110px
-  cursor: pointer
-  border-radius: $radius
-  font-size: 14px
+  width: 100px
   height: 50px
+  background-color: #fff
+  text-align: center
   line-height: 50px
-  width: 90px
-  padding-left: 20px
+  cursor: pointer
+  border-top-left-radius: $radius
+  border-bottom-left-radius: $radius
+  border-top-right-radius: 0
+  border-bottom-right-radius: 0
   transition: 200ms ease
+  z-index: 100
+  &:hover
+    width: 120px
+  &::after
+    content: 'About'
+    color: $blue
+    display: block
+.close-btn
+  &::before
+    content: 'Close ✕'
+    color: $black
+    display: block
+  &::after
+    content: ''
+    color: $blue
+    display: block
 
 .about-me-modal
   display: relative
@@ -138,7 +140,7 @@ textarea, input, button
 .aside-container
   max-width: 306px
   padding-left: 30px
-  margin-top: 100px
+  margin-top: 15vh
   a
     color: $black
 
@@ -158,17 +160,22 @@ textarea, input, button
     font-size: 42px
 
   .about-me-btn
-    position: relative
-    color: $blue
-    background: #fff
-    border-radius: $radius
-    font-size: 14px
+    position: absolute
+    top: auto
+    bottom: 0
+    right: 0
+    left: 0
     height: 50px
-    line-height: 50px
     width: 100%
-    margin-left: 20px
-    &:hover
-      width: 100%
+    background-color: #fff
+    text-align: center
+    line-height: 50px
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+    border-top-right-radius: 0
+    border-bottom-right-radius: 0
+    transition: 200ms ease
+    z-index: 100
 
   .about-me-modal
     display: relative
@@ -180,21 +187,22 @@ textarea, input, button
     right: -100vw
     width: 100vw
     transition: 300ms ease-in-out
+    overflow: scroll
     &.modal-open
       right: 0
     h2
       color: $blue
-      font-size: 48px
+      font-size: 24px
       margin: 0
     p
       font-size: 14px
       line-height: 2
 
   .aside-container
-    //max-width: 596px
+    width: 87.5%
     padding-left: 0
     margin: auto
-    margin-top: 100px
+    margin-top: 5vh
     a
       color: $black
 
@@ -203,9 +211,6 @@ textarea, input, button
     right: 0
     bottom: 0
     left: 0
-
-  .about-me-btn
-
 
 // TABLET STYLES
 @media only screen and (min-width: 768px) and (max-width: 1023px)
@@ -242,7 +247,7 @@ textarea, input, button
     max-width: 596px
     padding-left: 0
     margin: auto
-    margin-top: 100px
+    margin-top: 15vh
     a
       color: $black
 

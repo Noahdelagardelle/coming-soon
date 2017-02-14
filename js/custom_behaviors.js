@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+/*
 	$('.about-me-btn').on('tap', function(){
 		$('.about-me-modal').addClass('modal-open');
 	})
@@ -7,17 +7,16 @@ $(document).ready(function() {
 	$('.close-modal-btn').on('tap', function(){
 		$('.about-me-modal').removeClass('modal-open');
 	})
+*/
 
-	// VARIABLES
+	$('.about-me-btn').on('tap', function(e){
+		e.preventDefault()
+		$('.about-me-modal').toggleClass('modal-open');
+		$(this).toggleClass('close-btn')
+	})
 
-
-	// EVENT HANDLERS
-
-
-	// FUNCTIONS
-
-
-	// INITIALIZATION
-
+	//$('.close-modal-btn').on('tap', function(){
+	//	$('.about-me-modal').removeClass('modal-open');
+	//})
 
 });
