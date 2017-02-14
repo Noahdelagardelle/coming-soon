@@ -302,20 +302,16 @@ textarea, input, button {
           justify-content: space-between;
 }
 
-.social-container a {
+.icon {
   opacity: 0;
-}
-
-.social-container a {
   font-size: 26px;
   color: white;
-  -webkit-transition: 100ms;
-  transition: 100ms;
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
 
-.social-container a:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+.icon:hover {
+  color: #7AB2CA;
 }
 
 .about-me-btn {
