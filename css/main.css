@@ -224,6 +224,7 @@ textarea, input, button {
 .intro {
   margin-top: 15vh;
   font-size: 48px;
+  opacity: 0;
 }
 
 .hello {
@@ -235,12 +236,14 @@ textarea, input, button {
   max-width: 306px;
   font-size: 18px;
   margin-bottom: 30px;
+  opacity: 0;
 }
 
 .email-label {
   display: block;
   font-size: 18px;
   margin-bottom: 10px;
+  opacity: 0;
 }
 
 .input-container {
@@ -249,6 +252,7 @@ textarea, input, button {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 30px;
+  opacity: 0;
 }
 
 .email-input {
@@ -296,6 +300,10 @@ textarea, input, button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.social-container a {
+  opacity: 0;
 }
 
 .social-container a {
@@ -372,11 +380,13 @@ textarea, input, button {
   color: #069;
   font-size: 48px;
   margin: 0;
+  opacity: 0;
 }
 
 .about-me-modal p {
   font-size: 14px;
   line-height: 2;
+  opacity: 0;
 }
 
 .aside-container {
@@ -433,7 +443,6 @@ textarea, input, button {
     width: 100vw;
     -webkit-transition: 300ms ease-in-out;
     transition: 300ms ease-in-out;
-    overflow: scroll;
   }
   .about-me-modal.modal-open {
     right: 0;

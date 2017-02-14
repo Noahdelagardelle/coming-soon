@@ -24,6 +24,7 @@ textarea, input, button
 .intro
   margin-top: 15vh
   font-size: 48px
+  opacity: 0
 
 .hello
   display: block
@@ -33,16 +34,19 @@ textarea, input, button
   max-width: 306px
   font-size: 18px
   margin-bottom: 30px
+  opacity: 0
 
 .email-label
   display: block
   font-size: 18px
   margin-bottom: 10px
+  opacity: 0
 
 .input-container
   font-size: 14px
   display: flex
   margin-bottom: 30px
+  opacity: 0
 
 .email-input
   box-sizing: border-box
@@ -77,6 +81,8 @@ textarea, input, button
   max-width: 306px
   display: flex
   justify-content: space-between
+  a
+    opacity: 0
 
 .social-container a
   font-size: 26px
@@ -133,9 +139,11 @@ textarea, input, button
     color: $blue
     font-size: 48px
     margin: 0
+    opacity: 0
   p
     font-size: 14px
     line-height: 2
+    opacity: 0
 
 .aside-container
   max-width: 306px
@@ -187,7 +195,6 @@ textarea, input, button
     right: -100vw
     width: 100vw
     transition: 300ms ease-in-out
-    overflow: scroll
     &.modal-open
       right: 0
     h2
